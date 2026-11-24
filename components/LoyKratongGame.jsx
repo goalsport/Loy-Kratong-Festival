@@ -46,18 +46,6 @@ export default function LoyKratongGame() {
           <button type="button" className="btn-gold" onClick={() => call("goToStep", 2)}>
             เริ่มต้นลอยกระทง
           </button>
-          <a
-            href="/records"
-            style={{
-              display: "block",
-              marginTop: 14,
-              color: "#7dd3fc",
-              fontSize: 13,
-              textDecoration: "none"
-            }}
-          >
-            ดูว่าใครลอยกับใคร
-          </a>
         </div>
       </div>
 
@@ -172,18 +160,6 @@ export default function LoyKratongGame() {
           >
             ลอยกระทงอีกครั้ง
           </button>
-          <a
-            href="/records"
-            style={{
-              display: "block",
-              marginTop: 12,
-              color: "#7dd3fc",
-              fontSize: 13,
-              textDecoration: "none"
-            }}
-          >
-            ดูว่าใครลอยกับใคร
-          </a>
         </div>
       </div>
     </>
